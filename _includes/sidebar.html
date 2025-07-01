@@ -25,6 +25,28 @@
           <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
         </a>
       </li>
+      <!--  추가된 메뉴들 -->
+<li class="nav-item">
+  <a href="/categories/til/" class="nav-link">
+    <i class="fa-fw fas fa-book"></i>
+    <span>TIL</span>
+  </a>
+</li>
+
+<li class="nav-item">
+  <a href="/categories/unity/" class="nav-link">
+    <i class="fa-fw fas fa-cube"></i>
+    <span>Unity</span>
+  </a>
+</li>
+
+<li class="nav-item">
+  <a href="/categories/git/" class="nav-link">
+    <i class="fa-fw fas fa-code-branch"></i>
+    <span>Git</span>
+  </a>
+</li>
+<!--  여기까지 -->
       <!-- the real tabs -->
       {% for tab in site.tabs %}
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
