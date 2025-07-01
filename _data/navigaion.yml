@@ -1,0 +1,26 @@
+- title: 홈
+  url: /
+
+- title: 카테고리
+  url: /categories/
+
+- title: 태그
+  url: /tags/
+
+- title: 아카이브
+  url: /archives/
+
+- title: 정보
+  url: /about/
+
+- title: TIL
+  url: /categories/til/
+
+- title: Unity
+  url: /categories/unity/
+
+- title: CSharp
+  url: /categories/csharp/
+
+- title: Git
+  url: /categories/git/
