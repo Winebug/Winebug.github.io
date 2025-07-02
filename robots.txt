@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://winebug.github.io/sitemap.xml
